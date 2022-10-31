@@ -18,7 +18,8 @@
       <fieldset class="form__group">
         <legend>Personal information</legend>
         <div class="label__container">
-          <label for="surname">Surname:
+          <label for="surname">
+            Surname:
             <input
               type="text"
               id="surname"
@@ -30,7 +31,8 @@
           </label>
         </div>
         <div class="label__container">
-          <label for="name">Name:
+          <label for="name">
+            Name:
             <input
               type="text"
               id="name"
@@ -42,7 +44,8 @@
           </label>
         </div>
         <div class="label__container">
-          <label for="age">How old are you?
+          <label for="age">
+            How old are you?
             <input
               type="number"
               id="age"
@@ -56,18 +59,20 @@
           </label>
         </div>
         <div class="label__container">
-          <label for="date-of-birth">Full date of birth:
+          <label for="dateOfBirth">
+            Full date of birth:
             <input
               type="date"
-              id="date-of-birth"
-              name="date-of-birth"
+              id="dateOfBirth"
+              name="dateOfBirth"
               autocomplete="off"
               required
             >
           </label>
         </div>
         <div class="label__container">
-          <label for="terms">I accept the term of the agreement
+          <label for="terms">
+            I accept the term of the agreement
             <input
               type="checkbox"
               id="terms"
@@ -81,7 +86,8 @@
       <fieldset class="form__group">
         <legend>Registration</legend>
         <div class="label__container">
-          <label for="email">E-mail:
+          <label for="email">
+            E-mail:
             <input
               type="email"
               id="email"
@@ -93,7 +99,8 @@
           </label>
         </div>
         <div class="label__container">
-          <label for="password">Password:
+          <label for="password">
+            Password:
             <input
               type="password"
               id="password"
@@ -113,7 +120,7 @@
           <label class="label__inline">
             <input
               type="radio"
-              name="cats"
+              name="hasCats"
               value="yes"
             >
             Yes
@@ -121,36 +128,39 @@
           <label class="label__inline">
             <input
               type="radio"
-              name="cats"
+              name="hasCats"
               value="no"
             >
             No
           </label>
         </div>
         <div class="label__container">
-          <label for="color"> What is your favorite color?
+          <label for="favColor">
+            What is your favorite color?
             <input
               type="color"
-              id="color"
-              name="color"
+              id="favColor"
+              name="favColor"
             >
           </label>
         </div>
         <div class="label__container">
-          <label for="bedtime"> What time do you go to bed?
+          <label for="badTime">
+            What time do you go to bed?
             <input
               type="time"
-              name="bedtime"
-              id="bedtime"
+              name="badTime"
+              id="badTime"
               step="2"
             >
           </label>
         </div>
         <div class="label__container">
-          <label for="car"> What are your favorite brand of cars?
+          <label for="favouriteCarBrand">
+            What are your favorite brand of cars?
             <select
-              name="brand"
-              id="car"
+              name="favouriteCarBrand"
+              id="favouriteCarBrand"
               multiple
             >
               <option value="bmw">BMW</option>
@@ -160,7 +170,8 @@
           </label>
         </div>
         <div class="label__container">
-          <label for="rate"> How do you rate our work?
+          <label for="rate">
+            How do you rate our work?
             <input
               type="range"
               id="rate"
@@ -175,12 +186,14 @@
       <fieldset class="form__group">
         <legend>Additional info</legend>
         <div class="label__container">
-          <label for="comments">Comments:
+          <label for="comments">
+            Comments:
             <textarea name="comments" id="comments"></textarea>
           </label>
         </div>
         <div class="label__container">
-          <label for="recommend">Would you recommend us?:
+          <label for="recommend">
+            Would you recommend us?:
             <select name="recommend" id="recommend">
               <option value="yes">yes</option>
               <option value="no">no</option>
@@ -188,7 +201,7 @@
           </label>
         </div>
       </fieldset>
-      <button type="submit" class="form__group">Submit</button>
+      <button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
